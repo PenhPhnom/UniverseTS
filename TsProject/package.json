@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build":"tsc -p tsconfig.json",
-    "postbuild":"node copyJsFile.js output ../Assets/Resources"
+    "postbuild":"node copyJsFile.js output ../Assets/StreamingAssets/Scripts"
   },
   "keywords": [],
   "author": "",
