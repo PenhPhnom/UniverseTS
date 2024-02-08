@@ -1,0 +1,1 @@
+{"version":3,"file":"encoding.js","sourceRoot":"","sources":["../../../../src/libs/flatbuffer/encoding.ts"],"names":[],"mappings":"AAAA,MAAM,CAAN,IAAY,QAGX;AAHD,WAAY,QAAQ;IAChB,mDAAc,CAAA;IACd,uDAAgB,CAAA;AACpB,CAAC,EAHW,QAAQ,KAAR,QAAQ,QAGnB","sourcesContent":["export enum Encoding {\r\n    UTF8_BYTES = 1,\r\n    UTF16_STRING = 2\r\n}"]}

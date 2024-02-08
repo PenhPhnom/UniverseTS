@@ -1,0 +1,1 @@
+{"version":3,"file":"TimeService.test.js","sourceRoot":"","sources":["../../test/TimeService.test.ts"],"names":[],"mappings":"AAEA,IAAI,CAAC,kBAAkB,EAAE,GAAG,EAAE;AAO9B,CAAC,CAAC,CAAC","sourcesContent":["\r\n\r\ntest(\"TimeService Test\", () =>{\r\n   \r\n\r\n    \r\n\r\n\r\n\r\n});"]}

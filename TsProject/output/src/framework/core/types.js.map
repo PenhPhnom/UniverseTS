@@ -1,0 +1,1 @@
+{"version":3,"file":"types.js","sourceRoot":"","sources":["../../../../src/framework/core/types.ts"],"names":[],"mappings":"","sourcesContent":["export type Constructor<T> = new (...args: any[]) => T;\r\nexport type LinearEnum = { Count: number, [index: number]: string};"]}

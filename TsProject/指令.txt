@@ -1,0 +1,2 @@
+npm run build --编译ts为js
+npm run postbuild --移动js到streamingassets/scripts以下

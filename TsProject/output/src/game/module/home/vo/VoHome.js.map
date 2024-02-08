@@ -1,0 +1,1 @@
+{"version":3,"file":"VoHome.js","sourceRoot":"","sources":["../../../../../../src/game/module/home/vo/VoHome.ts"],"names":[],"mappings":"AAEA,MAAM,OAAO,MAAM;CAOlB","sourcesContent":["\r\n\r\nexport class VoHome{\r\n\r\n    public name:string;\r\n    public hp:number;\r\n    public mp:number;\r\n    public money:number;\r\n\r\n}"]}
