@@ -56,7 +56,7 @@ export default class Utils {
 
     static rotatePoint(rpoint:UnityEngine.Vector2,angle,x,y)
     {
-        let ret=new UnityEngine.Vector2();
+        let ret=new UnityEngine.Vector2(0,0);
         let rad=angle*Math.PI/180;
         ret.x=(x-rpoint.x)*Math.cos(rad)-(y-rpoint.y)*Math.sin(rad)+rpoint.x;
         ret.y=(x-rpoint.x)*Math.sin(rad)+(y-rpoint.y)*Math.cos(rad)+rpoint.y;

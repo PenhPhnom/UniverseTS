@@ -15,7 +15,7 @@ import { storyUI } from "../../../../data/ui/story";
 import { commonUI } from "../../../../data/ui/common";
 import { S } from "../../../../global/GameConfig";
 import { Logger } from "../../../../framework/logger/Logger";
-export class UILoginPage extends UIPage {
+export class UILoginPage{
     constructor() {
         super(...arguments);
         this._effectGo = null;

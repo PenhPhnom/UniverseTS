@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: static_fb
+  m_EditorClassIdentifier: 
+  m_GroupName: static_fb
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e7b62c9f5cc0a7f4fa68a8a8fd651269
+  m_SerializeEntries:
+  - m_GUID: 39404c0c68d7b374f835aecee3f2697f
+    m_Address: Config/fb/heroconfig.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - FB
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4de2f798bf6e03d4dbf355289f5692c8
+    m_Address: Config/fb/skillconfig.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - FB
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2250378bb3ca734aac83f107cd3ea0d
+    m_Address: Config/fb/unitconfig.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - FB
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: dd1f300d6062fee48bf00a13907517b6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: deeb3fd9e3d907e4e8aa31857f05c689, type: 2}
+    - {fileID: 11400000, guid: feab738b9bf186148bd7150c26e5a802, type: 2}

@@ -190,7 +190,7 @@ namespace Puerts
 #endif
         }
 
-        void ExecuteFile(string filename)
+       public void ExecuteFile(string filename)
         {
             if (loader.FileExists(filename))
             {

@@ -12,7 +12,7 @@ import { LoginAPI } from "../../../api/LoginAPI";
 import { Opcode } from "../../../../data/pb/Opcode";
 import { S } from "../../../../global/GameConfig";
 import { Logger } from "../../../../framework/logger/Logger";
-export class UIHomePage extends UIPage {
+export class UIHomePage{
     onAwake() {
         super.onAwake();
         this.m_chatBtn.onClick.Add(() => {

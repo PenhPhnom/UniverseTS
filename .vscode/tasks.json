@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "bundle:dev",
+			"path": "TsProject",
+			"problemMatcher": [],
+			"label": "npm: bundle:dev - TsProject",
+			"detail": "SET NODE_OPTIONS=--openssl-legacy-provider && webpack --config webpack.config.debug.js --watch"
+		}
+	]
+}

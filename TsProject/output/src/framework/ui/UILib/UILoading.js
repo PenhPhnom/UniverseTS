@@ -9,7 +9,7 @@ import { UITypeDef } from "../UIDefine";
 import { binder } from "../../common/NiceDecorator";
 import { UIMessage } from "../../../game/event/UIMessage";
 import { S } from "../../../global/GameConfig";
-export class UILoading extends UIPanel {
+export class UILoading  {
     onAwake() {
     }
     get uiType() {

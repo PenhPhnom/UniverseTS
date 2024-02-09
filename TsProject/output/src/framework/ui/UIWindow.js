@@ -1,7 +1,7 @@
 import { UIPanel } from "./UIPanel";
 import { UITypeDef, UIComDefs } from "./UIDefine";
 import { FairyGUI } from "csharp";
-export class UIWindow extends UIPanel {
+export class UIWindow  {
     get uiType() {
         return UITypeDef.Window;
     }

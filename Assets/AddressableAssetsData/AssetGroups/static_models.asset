@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: static_models
+  m_EditorClassIdentifier: 
+  m_GroupName: static_models
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5ac213eabf79d39488fb6497ed99223a
+  m_SerializeEntries:
+  - m_GUID: 7260c74ddb0b2c349808341d4881d18b
+    m_Address: Models/CharacterRes/common/Texture/c_MatCap_Toon3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b1a1325081ae2d48b129c34ba20d907
+    m_Address: Models/CharacterRes/common/Texture/c_ModelYinying.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8db203d51cbc0f940a2ce6ea87bb2bc8
+    m_Address: Models/CharacterRes/h_11_dj/Texture/h_11_dj_t.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09a0ccfb34f4ea441af81c55018e0635
+    m_Address: Models/CharacterRes/h_41_nl/Material/h_41_nl_o.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5f77866924928c4a877a526c1888e3f
+    m_Address: Models/CharacterRes/h_41_nl/Material/h_41_nl_o_d.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aed8d6688aabcd04289db9499369f1ea
+    m_Address: Models/CharacterRes/h_41_nl/Material/h_41_nl_o_f_diss.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a9b41858e952bb4989320ed29e71412
+    m_Address: Models/CharacterRes/h_41_nl/Model/h_41_nl_m@story_f_zhayan.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6cd939638bd6196409399bd23a4fba20
+    m_Address: Models/CharacterRes/h_41_nl/Texture/h_41_nl_t.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9efba636797207c47b8b8742da55409d
+    m_Address: Models/CharacterRes/h_41_nl/Texture/h_41_nl_t_f.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 996fb180bd7d9cb4696fe6bc2c5a07dd
+    m_Address: Models/EffectRes/Material/c_ModelYinying.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb1d65f6075c61c47af1aacb21844b0c
+    m_Address: Models/EffectRes/Model/c_Model_Yinying.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ec9756fbe9924f4aa88f2766381f30e
+    m_Address: Models/EffectRes/Texture/c_deadnoise.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0844616ea41289240be6e207e6b7385f
+    m_Address: Models/h_41_nl/Model/h_41_nl_m.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f2c7fcc88bc7ad4384532b7e6c4199e
+    m_Address: Models/h_41_nl/Model/h_41_nl_m@attack_1.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 874224df993a3dd4dbc42c7efcd3498b
+    m_Address: Models/h_41_nl/Model/h_41_nl_m@attack_2.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6f95d568248d5c4bab14c2d6135edfd
+    m_Address: Models/h_41_nl/Model/h_41_nl_m@attack_3.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f06e98440f2335548838433c6042510e
+    m_Address: Models/h_41_nl/Model/h_41_nl_m@attack_4.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48be0922c7a36ff4bb67c48d37eb9f81
+    m_Address: Models/h_41_nl/Model/h_41_nl_m@dead.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99d2fe08ff4345d44bd291e087f5acbb
+    m_Address: Models/h_41_nl/Model/h_41_nl_m@hit.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0fcebef3f3e6c7a4ca831b2862618049
+    m_Address: Models/h_41_nl/Model/h_41_nl_m@rdy_1.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c3441814efacbc349b41ce143a6f6da2
+    m_Address: Models/h_41_nl/Model/h_41_nl_m@rdy_2.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 94ecdcad8a4901546a6e818d069beda7
+    m_Address: Models/h_41_nl/Model/h_41_nl_m@run.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6fc79faed56918c4ebccabee1951a5d7
+    m_Address: Models/h_41_nl/Model/h_41_nl_m@skill_1.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f0073dad22ff37429738d5d886eecc9
+    m_Address: Models/h_41_nl/Model/h_41_nl_m@skill_2.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1889fd2dad71ec44aea578806927e04
+    m_Address: Models/h_41_nl/Model/h_41_nl_m@skill_3.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97487d4f2de4b2e4a8964340b51e90f9
+    m_Address: Models/h_41_nl/Model/h_41_nl_m@stand_old@stand.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32649b408956a6145b238bcefb1e81d5
+    m_Address: Models/h_41_nl/Model/h_41_nl_m@trans.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ac4e7b2a2790ef4faab90bfafd9b055
+    m_Address: Models/h_41_nl/Model/h_41_nl_m@walk.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a74b99d88241824ca543c628a88c335
+    m_Address: Models/h_41_nl/Model/h_41_nl_m@win.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f8912e4d61b0514794e1cba74c7ec45
+    m_Address: Models/h_41_nl/Model/h_41_nl_m@win@stand_win.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1b1762a29699b34a90336203eb6b08d
+    m_Address: Models/h_41_nl/Model/h_41_nl_m_ui@all@stand_ui.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 01da313194ef4304293d8b5c22ffd2a1
+    m_Address: Models/h_41_nl_p 1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: dd1f300d6062fee48bf00a13907517b6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f2785742400f2e24fa17cb6f0c8a676a, type: 2}
+    - {fileID: 11400000, guid: c4b82d9e39756534cb2a70cd2e4d0d60, type: 2}

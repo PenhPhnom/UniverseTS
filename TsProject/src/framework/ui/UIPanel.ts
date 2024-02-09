@@ -1,5 +1,4 @@
 import { UITypeDef, UILayerDef } from "./UIDefine";
-import { FairyGUI } from "csharp";
 import { S } from "../../global/GameConfig";
 import { UIBase } from "./UIBase";
 import { UIComponent } from "./UIComponent";
@@ -36,12 +35,11 @@ export abstract class UIPanel extends UIBase {
     
     public  get isOpen() : boolean{
 
-        return this.fui.visible;
+        return true
     }
 
     public set visible(isActivate:boolean){
 
-        this.fui.visible = isActivate;
     }
 
     public abstract onAwake():void;
@@ -74,8 +72,6 @@ export abstract class UIPanel extends UIBase {
     private _internalOpen(arg:any):void{
         
         this.layer = UILayerDef.getDefaultLayer(this.uiType);
-        FairyGUI.GRoot.inst.AddChild(this.fui);
-
         this.onShow(arg);
     }
 
@@ -83,7 +79,7 @@ export abstract class UIPanel extends UIBase {
     {
         //加载组件Package资源
         if(pkg != this.pkgName && !this._components.contains(pkg)){
-            await S.ResManager.loadFairyGUIPackage(pkg);
+            // await S.ResManager.loadFairyGUIPackage(pkg);
             this._components.add(pkg);
         }
         
@@ -97,7 +93,6 @@ export abstract class UIPanel extends UIBase {
     public close(arg:any = null):void{
 
         this.onClose(arg);
-        FairyGUI.GRoot.inst.RemoveChild(this.fui);
         if(this._timer)
         {
             clearInterval(this._timer);
@@ -110,21 +105,14 @@ export abstract class UIPanel extends UIBase {
 
         //卸载组件Package
         this._components.foreach(element => {
-            S.ResManager.releaseFairyGUIPackage(element);
         });
         
         this._uiComponents.forEach(element=>{
              element.onClose();
-             if(element.parent!=undefined && element.parent!=null)
-             {
-                element.parent.RemoveChild(element.fui);
-             }
-             element.fui.Dispose();
         })
 
         this._components.clear();
         this._uiComponents.clear();
-        this.fui.Dispose();
         this.onDispose();
     }
 

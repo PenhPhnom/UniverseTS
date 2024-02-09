@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: effect-common.assetbundle
+  m_EditorClassIdentifier: 
+  m_GroupName: effect-common.assetbundle
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 0478d5052b85d7047aa1840d174a81f9
+  m_SerializeEntries:
+  - m_GUID: 848bffc9b8fe9ce48af32a414bad2726
+    m_Address: Effect/Common/Materials/models_fx_R.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf98ab79d06136e469d05d25bf60ad2e
+    m_Address: Effect/Common/Materials/models_fx_RGB.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4fc05577dd509243ab60b06b0f24ba0
+    m_Address: Effect/Common/Texture/Atlas_StatusIcons.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2267e799884073247a926ca223eb4ec0
+    m_Address: Effect/Common/Texture/Atlas_TextIcons.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aadcfe29a35dfde4abad8f206d91e116
+    m_Address: Effect/Common/Texture/Matcap_Encode2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 815d01df4c02241468f0c8c209bc227a
+    m_Address: Effect/Common/Texture/models_fx.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4efd4c98620b1774094af2ab763c5679
+    m_Address: Effect/Common/Texture/models_fx_a.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 769fea9ad1a24834c81dbf95aaaf1ef0
+    m_Address: Effect/Common/Texture/Run/RunDataFtue.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe0921e2e4419784ca237ecfdc261e97
+    m_Address: Effect/Common/Texture/Run/RunDataPrimary.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0efeb902578385e4198696637409376d
+    m_Address: Assets/AssetsPackage/Effect/Common/Texture/SDF/Acme-Regular SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca1a7d600bfb75942a98d922e8c8fa98
+    m_Address: Assets/AssetsPackage/Effect/Common/Texture/SDF/BadScript-Regular SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64b8cadc7f7f84e48885b46479d9b151
+    m_Address: Assets/AssetsPackage/Effect/Common/Texture/SDF/ChineseSimplified-NotoSansSC-Regular
+      SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8038a579274ee90448d7854dea323fc0
+    m_Address: Assets/AssetsPackage/Effect/Common/Texture/SDF/Journal SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42cb6a58b6baa7b4fa32dd161ae5ea9c
+    m_Address: Assets/AssetsPackage/Effect/Common/Texture/SDF/MaShanZheng-Regular
+      SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 63e0224ef29371740acc191c2713277e
+    m_Address: Assets/AssetsPackage/Effect/Common/Texture/SDF/NotFound SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d487911288807e54f896a3b1d4ff4086
+    m_Address: Assets/AssetsPackage/Effect/Common/Texture/SDF/PTSansNarrowBold SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5efe065a173c3746bba91744fc322af
+    m_Address: Assets/AssetsPackage/Effect/Common/Texture/SDF/PTSansNarrowRegular
+      SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8c5482305ea1114ca54e492c266fc57
+    m_Address: Assets/AssetsPackage/Effect/Common/Texture/SDF/Roboto-Black SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 278dfb204a7eeda4e8c1cf4309fe8da7
+    m_Address: Assets/AssetsPackage/Effect/Common/Texture/SDF/Roboto-BlackItalic
+      SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74e8350414854704a96e2a12cf56e68a
+    m_Address: Assets/AssetsPackage/Effect/Common/Texture/SDF/Roboto-Medium SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a573598b1a44b7647b8236da3f8e47f3
+    m_Address: Assets/AssetsPackage/Effect/Common/Texture/SDF/Roboto-Medium-ChineseUsernameFallback
+      SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 809f02d1b5f2c1541813864ad7951aa6
+    m_Address: Assets/AssetsPackage/Effect/Common/Texture/SDF/Roboto-MediumItalic
+      SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93f95640889eecf46b27c7a97562f6d3
+    m_Address: Assets/AssetsPackage/Effect/Common/Texture/SDF/RussoOne-Regular SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10bff9b475c162349b786538c4d2a99c
+    m_Address: Assets/AssetsPackage/Effect/Common/Texture/SDF/ZCOOLQingKeHuangYou-Regular
+      SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: dd1f300d6062fee48bf00a13907517b6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 99e059d38eca6f24e802c52173c95871, type: 2}
+    - {fileID: 11400000, guid: ec4c693cfdb9d794aa5db7dc9023800f, type: 2}

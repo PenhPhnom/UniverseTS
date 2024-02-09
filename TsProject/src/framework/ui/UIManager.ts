@@ -43,7 +43,7 @@ export class UIManager extends Singleton<UIManager>{
             panel.close();
         }
         //卸载资源
-        S.ResManager.releaseFairyGUIPackage(panel.pkgName);
+        // S.ResManager.releaseFairyGUIPackage(panel.pkgName);
         panel.dispose();  
     }
 
@@ -82,10 +82,6 @@ export class UIManager extends Singleton<UIManager>{
         let ui:any = this.getPanelUI(name);
 
         if(ui == null){
-            //加载 package
-            await S.ResManager.loadFairyGUIPackage(pkg);
-            ui = UIFactory.createUI(pkg, name);
-            this.m_listLoadedPanel.push(ui);
         }
 
         if(ui != null){
@@ -107,12 +103,7 @@ export class UIManager extends Singleton<UIManager>{
         this.m_currentPage.arg = arg;
 
         //打开新Page
-        await S.ResManager.loadFairyGUIPackage(pkg);
-        let ui = UIFactory.createUI(pkg, page);
-        (ui as any)._internalOpen(arg);
-
-        //保存到 m_currentPage
-        this.m_currentPage.ui = ui;
+        // await S.ResManager.loadFairyGUIPackage(pkg);
 
         //销毁当前page 中打开的各自Panels
         this.distroyAllLoadedPanel();
@@ -212,7 +203,6 @@ export class UIManager extends Singleton<UIManager>{
     //打开Loading界面
     public async openLoading(pkg:string, name:string, arg?:any){
         if(!this.m_loadingPage){
-            this.m_loadingPage = UIFactory.createUI(pkg, name);
         }
         (this.m_loadingPage as any)._internalOpen(arg);
        
@@ -236,11 +226,7 @@ export class UIManager extends Singleton<UIManager>{
 
     //关闭窗口
     public closeWindow(name:string, arg:any){
-
-        let ui:UIWindow = this.getPanelUI(name) as UIWindow;
-        if(ui != null){
-            ui.close(arg);
-        }
+       
     }
 
     //==========================================================UIWidget
@@ -255,10 +241,6 @@ export class UIManager extends Singleton<UIManager>{
     //u关闭Widiget
     public closeWidget(name:string, arg:any){
 
-        let ui:UIWidge = this.getPanelUI(name) as UIWidge;
-        if(ui!=null){
-            ui.close(arg);
-        }
     }
 
     public closeAllPanels(){

@@ -1,11 +1,10 @@
 
 import {UnitTest} from './unittest/UnitTest';
-import { JsManager ,GameLaunch, FairyGUI } from 'csharp';
+import { JsManager ,GameLaunch} from 'csharp';
 import { SceneDef } from './framework/scene/SceneDef';
 import { S } from './global/GameConfig';
 import { Logger } from './framework/logger/Logger';
 import { commonUI } from './data/ui/common';
-import { UIServerListItem } from './game/module/login/ui/UIServerListItem';
 
 
 
@@ -29,7 +28,7 @@ class GameMain{
             //ExcelManager.Instance(ExcelManager);
       
             //加载通用FairyGUI资源
-            await S.ResManager.loadFairyGUIPackage(commonUI.PackageName);
+            // await S.ResManager.loadFairyGUIPackage(commonUI.PackageName);
 
             //do Unit Test
             UnitTest.doTest();
@@ -40,16 +39,6 @@ class GameMain{
             
             //JS启动完成，通知C#层
             GameLaunch.Instance.JsLuanchFinish();
-
-            let extItem = ()=>{
-                let item =  new UIServerListItem();
-               // pool.push(item)
-                return item;
-            }
-
-           // let pool = []
-            FairyGUI.UIObjectFactory.SetPackageItemExtension("ui://l64dumk9feeg54",extItem)
-            
 
         }catch(ex){
             Logger.error(ex);

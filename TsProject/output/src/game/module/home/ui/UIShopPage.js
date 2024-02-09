@@ -1,5 +1,4 @@
-import { UIPage } from "../../../../framework/ui/UIPage";
-export class UIShopPage extends UIPage {
+export class UIShopPage{
     onAwake() {
         super.onAwake();
     }

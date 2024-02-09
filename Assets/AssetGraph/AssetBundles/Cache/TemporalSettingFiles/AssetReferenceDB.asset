@@ -1,0 +1,604 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee4bc21567f434b598a3c96ba4946372, type: 3}
+  m_Name: AssetReferenceDB
+  m_EditorClassIdentifier: 
+  m_assets:
+  - m_assetDatabaseId: 40ccafe0c16301943907d65c62a7b104
+    m_importFrom: Assets/AssetGraph/AssetBundles/Cache/TemporalSettingFiles/AssetReferenceDB.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 848bffc9b8fe9ce48af32a414bad2726
+    m_importFrom: Assets/AssetsPackage/Effect/Common/Materials/models_fx_R.mat
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: bf98ab79d06136e469d05d25bf60ad2e
+    m_importFrom: Assets/AssetsPackage/Effect/Common/Materials/models_fx_RGB.mat
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: e4fc05577dd509243ab60b06b0f24ba0
+    m_importFrom: Assets/AssetsPackage/Effect/Common/Texture/Atlas_StatusIcons.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 2267e799884073247a926ca223eb4ec0
+    m_importFrom: Assets/AssetsPackage/Effect/Common/Texture/Atlas_TextIcons.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: aadcfe29a35dfde4abad8f206d91e116
+    m_importFrom: Assets/AssetsPackage/Effect/Common/Texture/Matcap_Encode2.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 815d01df4c02241468f0c8c209bc227a
+    m_importFrom: Assets/AssetsPackage/Effect/Common/Texture/models_fx.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 4efd4c98620b1774094af2ab763c5679
+    m_importFrom: Assets/AssetsPackage/Effect/Common/Texture/models_fx_a.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 769fea9ad1a24834c81dbf95aaaf1ef0
+    m_importFrom: Assets/AssetsPackage/Effect/Common/Texture/Run/RunDataFtue.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: fe0921e2e4419784ca237ecfdc261e97
+    m_importFrom: Assets/AssetsPackage/Effect/Common/Texture/Run/RunDataPrimary.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 5682c62e1063a0c449d268c9fd4a96ae
+    m_importFrom: Assets/AssetsPackage/Effect/Objects/Materials/l_lkw_star4x4.mat
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: e27784781ca48604b9d5f7e168c04b40
+    m_importFrom: Assets/AssetsPackage/Effect/Objects/Tex/l_lkw_star8x1.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 71375b5b2ad0e2e48a2f802568913ce7
+    m_importFrom: Assets/AssetsPackage/Effect/Objects/Tex/UI/ui_main_91.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: d31b1693c0e8cc04e9925e7c27a39eb4
+    m_importFrom: Assets/AssetsPackage/Effect/Objects/Tex/UI/ui_main_92.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 5a0b2deee77e1f94c8ab688ac4ac0e52
+    m_importFrom: Assets/AssetsPackage/Effect/Objects/Tex/UI/ui_main_93.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: e04322f60b4087e4aa1822c91a704d73
+    m_importFrom: Assets/AssetsPackage/Effect/Objects/Tex/UI/ui_main_94.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 5078fc68ce2ac4b4982572d29b35b33c
+    m_importFrom: Assets/AssetsPackage/Effect/Prefab/UI/ef_ui_pet_rank_yellow_test.prefab
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: df85c5346108ee847b34882c23c85b9e
+    m_importFrom: Assets/AssetsPackage/Effect/Prefab/UI/ef_ui_TaskFinish.prefab
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 7260c74ddb0b2c349808341d4881d18b
+    m_importFrom: Assets/AssetsPackage/Models/CharacterRes/common/Texture/c_MatCap_Toon3.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 1b1a1325081ae2d48b129c34ba20d907
+    m_importFrom: Assets/AssetsPackage/Models/CharacterRes/common/Texture/c_ModelYinying.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 8db203d51cbc0f940a2ce6ea87bb2bc8
+    m_importFrom: Assets/AssetsPackage/Models/CharacterRes/h_11_dj/Texture/h_11_dj_t.jpg
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 09a0ccfb34f4ea441af81c55018e0635
+    m_importFrom: Assets/AssetsPackage/Models/CharacterRes/h_41_nl/Material/h_41_nl_o.mat
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: a5f77866924928c4a877a526c1888e3f
+    m_importFrom: Assets/AssetsPackage/Models/CharacterRes/h_41_nl/Material/h_41_nl_o_d.mat
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: aed8d6688aabcd04289db9499369f1ea
+    m_importFrom: Assets/AssetsPackage/Models/CharacterRes/h_41_nl/Material/h_41_nl_o_f_diss.mat
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 4a9b41858e952bb4989320ed29e71412
+    m_importFrom: Assets/AssetsPackage/Models/CharacterRes/h_41_nl/Model/h_41_nl_m@story_f_zhayan.FBX
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 6cd939638bd6196409399bd23a4fba20
+    m_importFrom: Assets/AssetsPackage/Models/CharacterRes/h_41_nl/Texture/h_41_nl_t.jpg
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 9efba636797207c47b8b8742da55409d
+    m_importFrom: Assets/AssetsPackage/Models/CharacterRes/h_41_nl/Texture/h_41_nl_t_f.jpg
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 996fb180bd7d9cb4696fe6bc2c5a07dd
+    m_importFrom: Assets/AssetsPackage/Models/EffectRes/Material/c_ModelYinying.mat
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: bb1d65f6075c61c47af1aacb21844b0c
+    m_importFrom: Assets/AssetsPackage/Models/EffectRes/Model/c_Model_Yinying.FBX
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 1ec9756fbe9924f4aa88f2766381f30e
+    m_importFrom: Assets/AssetsPackage/Models/EffectRes/Texture/c_deadnoise.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 0844616ea41289240be6e207e6b7385f
+    m_importFrom: Assets/AssetsPackage/Models/h_41_nl/Model/h_41_nl_m.FBX
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 0f2c7fcc88bc7ad4384532b7e6c4199e
+    m_importFrom: Assets/AssetsPackage/Models/h_41_nl/Model/h_41_nl_m@attack_1.anim
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 874224df993a3dd4dbc42c7efcd3498b
+    m_importFrom: Assets/AssetsPackage/Models/h_41_nl/Model/h_41_nl_m@attack_2.anim
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: a6f95d568248d5c4bab14c2d6135edfd
+    m_importFrom: Assets/AssetsPackage/Models/h_41_nl/Model/h_41_nl_m@attack_3.anim
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: f06e98440f2335548838433c6042510e
+    m_importFrom: Assets/AssetsPackage/Models/h_41_nl/Model/h_41_nl_m@attack_4.anim
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 48be0922c7a36ff4bb67c48d37eb9f81
+    m_importFrom: Assets/AssetsPackage/Models/h_41_nl/Model/h_41_nl_m@dead.anim
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 99d2fe08ff4345d44bd291e087f5acbb
+    m_importFrom: Assets/AssetsPackage/Models/h_41_nl/Model/h_41_nl_m@hit.anim
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 0fcebef3f3e6c7a4ca831b2862618049
+    m_importFrom: Assets/AssetsPackage/Models/h_41_nl/Model/h_41_nl_m@rdy_1.anim
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: c3441814efacbc349b41ce143a6f6da2
+    m_importFrom: Assets/AssetsPackage/Models/h_41_nl/Model/h_41_nl_m@rdy_2.anim
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 94ecdcad8a4901546a6e818d069beda7
+    m_importFrom: Assets/AssetsPackage/Models/h_41_nl/Model/h_41_nl_m@run.anim
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 6fc79faed56918c4ebccabee1951a5d7
+    m_importFrom: Assets/AssetsPackage/Models/h_41_nl/Model/h_41_nl_m@skill_1.anim
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 1f0073dad22ff37429738d5d886eecc9
+    m_importFrom: Assets/AssetsPackage/Models/h_41_nl/Model/h_41_nl_m@skill_2.anim
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: a1889fd2dad71ec44aea578806927e04
+    m_importFrom: Assets/AssetsPackage/Models/h_41_nl/Model/h_41_nl_m@skill_3.anim
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 97487d4f2de4b2e4a8964340b51e90f9
+    m_importFrom: Assets/AssetsPackage/Models/h_41_nl/Model/h_41_nl_m@stand_old@stand.anim
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 32649b408956a6145b238bcefb1e81d5
+    m_importFrom: Assets/AssetsPackage/Models/h_41_nl/Model/h_41_nl_m@trans.anim
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 2ac4e7b2a2790ef4faab90bfafd9b055
+    m_importFrom: Assets/AssetsPackage/Models/h_41_nl/Model/h_41_nl_m@walk.anim
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 1a74b99d88241824ca543c628a88c335
+    m_importFrom: Assets/AssetsPackage/Models/h_41_nl/Model/h_41_nl_m@win.anim
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 9f8912e4d61b0514794e1cba74c7ec45
+    m_importFrom: Assets/AssetsPackage/Models/h_41_nl/Model/h_41_nl_m@win@stand_win.anim
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: d1b1762a29699b34a90336203eb6b08d
+    m_importFrom: Assets/AssetsPackage/Models/h_41_nl/Model/h_41_nl_m_ui@all@stand_ui.anim
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 01da313194ef4304293d8b5c22ffd2a1
+    m_importFrom: Assets/AssetsPackage/Models/h_41_nl_p 1.prefab
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: e728fee1a32b5aa43bd1d2b97278a596
+    m_importFrom: Assets/AssetGraph/Shaders/Model/Particles-Add-R.shader
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 38cf1c9b3c1f65148822c0282413459b
+    m_importFrom: Assets/AssetGraph/Shaders/Model/Particles-Add-RGBA.shader
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 5ed1496179af62141a090dbbc94a3303
+    m_importFrom: Assets/AssetGraph/Shaders/UI/T_UIParticle.shader
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 39404c0c68d7b374f835aecee3f2697f
+    m_importFrom: Assets/AssetsPackage/Config/fb/heroconfig.bytes
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 4de2f798bf6e03d4dbf355289f5692c8
+    m_importFrom: Assets/AssetsPackage/Config/fb/skillconfig.bytes
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: a2250378bb3ca734aac83f107cd3ea0d
+    m_importFrom: Assets/AssetsPackage/Config/fb/unitconfig.bytes
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: d9d35c095bb41da4fa88bd7dd4dd7621
+    m_importFrom: Assets/AssetsPackage/FairyGUI/combat_atlas0.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: a4f8f9c14379b0e43b4013ad977f7d87
+    m_importFrom: Assets/AssetsPackage/FairyGUI/combat_fui.bytes
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 1625a214433294c4f992ef4831ffcf0d
+    m_importFrom: Assets/AssetsPackage/FairyGUI/common_atlas0.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 490eb9a88c215a54188c9d3d77ea8178
+    m_importFrom: Assets/AssetsPackage/FairyGUI/common_fui.bytes
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 273d871e38d54cc4f9e3fcc81f65026c
+    m_importFrom: Assets/AssetsPackage/FairyGUI/home_fui.bytes
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 2d281af523de19b43a657ab20f850c18
+    m_importFrom: Assets/AssetsPackage/FairyGUI/launch_fui.bytes
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: c89ccc3373914b244bbd303383a91f6d
+    m_importFrom: Assets/AssetsPackage/FairyGUI/login_fui.bytes
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: d6cf8166b4b52d842b648fc50c158109
+    m_importFrom: Assets/AssetsPackage/FairyGUI/story_fui.bytes
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 88d3ede65961fe542b7ce8d02ac27f03
+    m_importFrom: Assets/AssetsPackage/Js/buffer.js
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: c7b10208e30bfbd44920c8e7f639adf5
+    m_importFrom: Assets/AssetsPackage/Js/bundle.js
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 454ca58b325c37645b9ad665ddb3db1d
+    m_importFrom: Assets/AssetsPackage/Js/long.js
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: c297bcfa19351cf4d870a09f0c2f10a6
+    m_importFrom: Assets/AssetsPackage/Js/puerts/cjsload.js
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 15893ed4bd36d3a48a2d6c2d1f41e5ec
+    m_importFrom: Assets/AssetsPackage/Js/puerts/csharp.js
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 6b2ded0f81761a545bff5e0018c3898a
+    m_importFrom: Assets/AssetsPackage/Js/puerts/events.js
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 806f4025472e23c408c1ea1746041439
+    m_importFrom: Assets/AssetsPackage/Js/puerts/flatbuffers.js
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 53cdfc0c6f332874fab5e8685438c7d2
+    m_importFrom: Assets/AssetsPackage/Js/puerts/init.js
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 49bebaf2a9349294cb69127600403952
+    m_importFrom: Assets/AssetsPackage/Js/puerts/log.js
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: dca2b3270e181f949b283ae5256c61d9
+    m_importFrom: Assets/AssetsPackage/Js/puerts/modular.js
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: d135f3cb2cfdf2c45b5cd3fef2c19180
+    m_importFrom: Assets/AssetsPackage/Js/puerts/polyfill.js
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 47b73497cc6035641a9122675df9fce9
+    m_importFrom: Assets/AssetsPackage/Js/puerts/promises.js
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 823e2f6c9dbf97944ab73dbfb59eac1b
+    m_importFrom: Assets/AssetsPackage/Js/puerts/timer.js
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: abcc6a4023c5267498f3d8ea4fd82862
+    m_importFrom: Assets/AssetsPackage/Story/TestStory.json
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: c752b8f3e40b99244ba8a52ad6b549e9
+    m_importFrom: Assets/AssetsPackage/Scenes/BattleScene.unity
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 50bd3a8d2c692fb459489d8d11c2859a
+    m_importFrom: Assets/AssetsPackage/Scenes/HomeScene.unity
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 48bc9a7f56d5c9847bea207f2984ce1d
+    m_importFrom: Assets/AssetsPackage/Scenes/LoadingScene.unity
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: f65a8455186195b438146c74c5ecadcc
+    m_importFrom: Assets/AssetsPackage/Scenes/LoginScene.unity
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 842a9914e9f7faa43b77b1eb8273d7de
+    m_importFrom: Assets/Resources/ysj_Character_Shadow.mat
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 279b823dc6cb8ba40aa084a49dbb1826
+    m_importFrom: Assets/Resources/ysj_Character_Outline.mat
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 2d69c5ab3c0df554d925383348e74499
+    m_importFrom: Assets/Gen/Typing/csharp/index.d.ts
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 44d1aa70abfad3c439aa95c27ddd7a07
+    m_importFrom: Assets/Editor/PuertsConfig/PuertsConfig.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 00000000000000004000000000000000
+    m_importFrom: ProjectSettings/ProjectSettings.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 00000000000000009000000000000000
+    m_importFrom: ProjectSettings/QualitySettings.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 188047ee4b6ee5a42b7b6b2cba31bbe6
+    m_importFrom: Assets/AssetGraph/AddressableAssetGraph.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 889549c2adaba1343989b62769e482c2
+    m_importFrom: Assets/AddressableAssetsData/AssetGroups/static_story.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 6ff0f9642a7b66e4899f31bea249cf90
+    m_importFrom: Assets/AddressableAssetsData/AssetGroups/static_effect.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 3707c78583cbaff48a42ec50787f190e
+    m_importFrom: Assets/AddressableAssetsData/AssetGroups/static_js.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 0d5773d7c949f124db79a222fa41f810
+    m_importFrom: Assets/AddressableAssetsData/AssetGroups/static_models.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 7bf1d13bab0b772409621d39f2d6661e
+    m_importFrom: Assets/AssetGraph/Cache/AssetBundleBuildMap.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 7473cfdc1c98d884fbd61b4a60da16b0
+    m_importFrom: Assets/AddressableAssetsData/AssetGroups/static_scenes.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 784f424d6a9ac0e4fadd869c92b97ade
+    m_importFrom: Assets/AddressableAssetsData/AssetGroups/static_shaders.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: f48b19ed6009fc54da754c7fef8c4ba5
+    m_importFrom: Assets/AddressableAssetsData/AssetGroups/static_fairygui.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 2c65d3ff20376fd47a1c6d608edc556c
+    m_importFrom: Assets/AddressableAssetsData/AssetGroups/static_fb.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 17df090343b74714cb16ccc28e38df8e
+    m_importFrom: Assets/AssetsPackage/FairyGUI/maincity_atlas0.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 13fa43383fe71404287fbfc9ac948797
+    m_importFrom: Assets/AssetsPackage/FairyGUI/maincity_fui.bytes
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: bb6e4363ac233b441925403ea46e926d
+    m_importFrom: Assets/Puerts/Src/TypeRegister.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: f5eda689519c51b42955139d2c6caba4
+    m_importFrom: Assets/FairyGUI/Scripts/UI/GList.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 3450bfa0d16ffb747888af524de6712d
+    m_importFrom: Assets/Scripts/GameLaunch/Test.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 461feec05183bbf4f908aa1455325715
+    m_importFrom: Assets/FairyGUI/Scripts/UI/UIObjectFactory.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: acb6fb5c63e3f49409db871a5a97261b
+    m_importFrom: Assets/FairyGUI/Scripts/UI/PackageItem.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: a264d748cae3e2e4d89791ecc517a9b8
+    m_importFrom: Assets/Puerts/Src/JsEnv.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: a88ebbf0e7647644ea9835676de5d7fe
+    m_importFrom: Assets/Puerts/Src/Editor/CJSImporter.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 65b819211c4a7ec4eb1cf17cda579377
+    m_importFrom: Assets/FairyGUI/Scripts/UI/GComboBox.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: fed5f7419983fbf4596a8739fe5dd048
+    m_importFrom: Assets/Puerts/Src/Editor/Generator.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 6f484651af15df84c841bacf82959f31
+    m_importFrom: Assets/Puerts/Src/MethodReflection.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: d7b7ade279883464288671135d22476f
+    m_importFrom: Assets/FairyGUI/Extensions/TextMeshPro/TMPFont.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: fa81e163380612a4a9591fe57a5b442c
+    m_importFrom: Assets/FairyGUI/Scripts/Core/UpdateContext.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 2a9dc9b4bcbc8be48bbaf5b14c5dbf2b
+    m_importFrom: Assets/Puerts/Src/NativeValueApiGeneric.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: d3ab09a55620b5f40a544e775edc4b22
+    m_importFrom: Assets/FairyGUI/Scripts/UI/GObject.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: a21ec486dca945f459590f80e1e6f699
+    m_importFrom: Assets/FairyGUI/Scripts/UI/GComponent.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 4cc9bc97157e2634dbadec93cb52dd0d
+    m_importFrom: Assets/Plugins/puerts.bundle/Contents/Info.plist
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: dc2848a78e1ed324ba4abd472879cfda
+    m_importFrom: Assets/Plugins/x86_64/puerts.dll
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: bc02fd086bd102447aff090183950ce6
+    m_importFrom: Assets/Plugins/iOS/libwee8.a
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 10b18e58eea6a2545bef32c254bcc887
+    m_importFrom: Assets/Plugins/iOS/libpuerts.a
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 24d09ba8cf3faa74f8dcd1c86ad38588
+    m_importFrom: Assets/FairyGUI/Scripts/Core/DisplayObject.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 9eaacdc820a41cd44a20394cdcfdccb5
+    m_importFrom: Assets/Puerts/Src/PuertsDLL.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: d8d6b64ae9d79e642a28aab4f115097c
+    m_importFrom: Assets/Plugins/puerts.bundle/Contents/MacOS/puerts
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 7177aa7a57b8cc0439fde7785099f11c
+    m_importFrom: Assets/FairyGUI/Scripts/UI/UIPackage.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: da9f7aaac1369b44fae8b8dbcf98feac
+    m_importFrom: Assets/Plugins/Android/libs/arm64-v8a/libpuerts.so
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: bd9c62cc282bb9b4fa9e794317eedd30
+    m_importFrom: Assets/FairyGUI/Scripts/UI/GLabel.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 6cec51dc34512d24781c81bf60f56abb
+    m_importFrom: Assets/Plugins/x86/puerts.dll
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: d8a05d6d82201104cb6b5156ca294f54
+    m_importFrom: Assets/FairyGUI/Scripts/Core/Text/TextField.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 0564e04ea1bf8534a944f881a104ced9
+    m_importFrom: Assets/Puerts/Src/GenericDelegate.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: c4eae4be32683c04a96ac1c4cd1834ab
+    m_importFrom: Assets/FairyGUI/Scripts/Core/ShaderConfig.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 796d0bdebe7368c47adfdf04a1abdfc6
+    m_importFrom: Assets/FairyGUI/Scripts/Core/GoWrapper.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: e9712bee5e6977647989e012a6a332a6
+    m_importFrom: Assets/FairyGUI/Scripts/Event/EventBridge.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 6650441f8140eae4c896682b7fd5b3e6
+    m_importFrom: Assets/FairyGUI/Scripts/Core/Stage.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 4f13bf1fdc7711c4aa9c5e1631138025
+    m_importFrom: Assets/FairyGUI/Scripts/UI/GProgressBar.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: c0ecc63fb3cf8494aba2695882964676
+    m_importFrom: Assets/Puerts/Src/DataTranslate.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: c058aecfacf0ba84882b20badfcd331b
+    m_importFrom: Assets/Plugins/Android/libs/armeabi-v7a/libpuerts.so
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 3ad0b9df4ceb6c04f91f89a29f6af70c
+    m_importFrom: Assets/Puerts/Src/TypedValue.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 8526777372c6fef4f8162b3a7901dcb0
+    m_importFrom: Assets/FairyGUI/Resources/Shaders/FairyGUI-Text.shader
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: de10f84640569464799f0e0bfa1ab7b0
+    m_importFrom: Assets/FairyGUI/Extensions/TextMeshPro/Shaders/FairyGUI-TMP.shader
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: c7873e47e4a9506418f9fbb48edc4d6b
+    m_importFrom: Assets/Puerts/Src/Editor/Resources/puerts/templates/type.tpl.txt
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 5122df77de2c85947bd3f3cc4c6d9584
+    m_importFrom: Assets/Puerts/Src/Resources/puerts/log.js.txt
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 263c97191482b3649ac7bf0810cc4f77
+    m_importFrom: Assets/FairyGUI/Resources/Shaders/FairyGUI-Image.shader
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 382e4d9a3bb8ad14f9a3fc8c73c0f8cb
+    m_importFrom: Assets/Puerts/Src/Resources/puerts/modular.js.txt
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: a13c9e6bb4238ab4ab3feed703e9b0e2
+    m_importFrom: Assets/Puerts/Src/Resources/puerts/csharp.js.txt
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: cd79153f88fa7334ea6c5564c053bdca
+    m_importFrom: Assets/FairyGUI/Resources/Shaders/FairyGUI-BMFont.shader
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: e9e99f0f1dd903b44b5dbe3b2b6add06
+    m_importFrom: Assets/Scripts/Puerts/JsManager.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: bf3b1bd64bddef1458d521d77a238b31
+    m_importFrom: Assets/AddressableAssetsData/TempCatalogFolder
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 9a51b45f891235848be6bfff6ca094d9
+    m_importFrom: Assets/AddressableAssetsData/TempCatalogFolder/catalog.json
+    m_exportTo: 
+    m_variantName: 
+  m_version: 2

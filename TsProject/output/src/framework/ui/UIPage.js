@@ -1,7 +1,7 @@
 import { UIPanel } from "./UIPanel";
 import { UITypeDef, UIComDefs } from "./UIDefine";
 import { S } from "../../global/GameConfig";
-export class UIPage extends UIPanel {
+export class UIPage  {
     get uiType() {
         return UITypeDef.Page;
     }

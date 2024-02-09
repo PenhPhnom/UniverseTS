@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: static_shaders
+  m_EditorClassIdentifier: 
+  m_GroupName: static_shaders
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 221da6b8fb8c8af4cb80e0eba8cb495f
+  m_SerializeEntries:
+  - m_GUID: 38cf1c9b3c1f65148822c0282413459b
+    m_Address: Shaders/Model/Particles-Add-RGBA.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ed1496179af62141a090dbbc94a3303
+    m_Address: Shaders/UI/T_UIParticle.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e728fee1a32b5aa43bd1d2b97278a596
+    m_Address: Shaders/Model/Particles-Add-R.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: dd1f300d6062fee48bf00a13907517b6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 773ae9ecab65db34e95ff5dc24f1c8be, type: 2}
+    - {fileID: 11400000, guid: e09d03787209be64eb4e13276fa15282, type: 2}

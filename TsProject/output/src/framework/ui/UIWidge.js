@@ -1,6 +1,6 @@
 import { UIPanel } from "./UIPanel";
 import { UITypeDef } from "./UIDefine";
-export class UIWidge extends UIPanel {
+export class UIWidge  {
     get uiType() {
         return UITypeDef.Widget;
     }
