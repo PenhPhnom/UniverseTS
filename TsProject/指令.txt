@@ -1,2 +1,10 @@
-npm run build --编译ts为js
-npm run postbuild --移动js到streamingassets/scripts以下
+npm install typescript
+
+git clone https://github.com/PenhPhnom/UniverseTS.git
+
+cd UniverseTS/Tsproject
+
+npm run bundle:dev  #调试
+
+npm run bundle:publish  #最终代码
+
