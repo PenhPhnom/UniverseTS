@@ -1,9 +1,9 @@
 {
   "scripts": {
-    "bundle:dev": "webpack --config webpack.config.debug.js --watch",
-    "bundle:publish": "webpack --config webpack.config.release.js",
-    "test": "jest",
-    "test-c": "jest --coverage"
+    "bundle:dev": "SET NODE_OPTIONS=--openssl-legacy-provider && webpack --config webpack.config.debug.js --watch",
+    "bundle:publish": "SET NODE_OPTIONS=--openssl-legacy-provider && webpack --config webpack.config.release.js",
+    "test": "SET NODE_OPTIONS=--openssl-legacy-provider && jest",
+    "test-c": "SET NODE_OPTIONS=--openssl-legacy-provider && jest --coverage"
   },
   "jest": {
     "testEnvironment": "node"
